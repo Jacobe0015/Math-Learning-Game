@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dp"
+    android:layout_height="match_parent"
+    android:layout_marginStart="60dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button_sum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Addition" />
+
+    <Button
+        android:id="@+id/button_difference"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Subtraction" />
+
+    <Button
+        android:id="@+id/button_product"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Multiplication" />
+
+    <Button
+        android:id="@+id/button_quotient"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Divide" />
+
+    <Button
+        android:id="@+id/button_all"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mixed" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
